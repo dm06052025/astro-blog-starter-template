@@ -1,4 +1,18 @@
-/*
+/*body {
+  font-family: 'Lora', serif;
+  color: #3B3A39;
+  background-color: #FAF9F6;
+}
+
+h1, h2, h3 {
+  font-family: 'Cormorant Garamond', serif;
+  color: #4A3F35;
+}
+
+.accent {
+  font-family: 'Great Vibes', cursive;
+  color: #C9A9A6;
+}
   The CSS in this style tag is based off of Bear Blog's default CSS.
   https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
