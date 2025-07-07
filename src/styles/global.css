@@ -1,4 +1,18 @@
-/*body {
+/*body {body {
+  font-family: 'Lora', serif;
+  color: #3B3A39;
+  background-color: #FAF9F6;
+}
+
+h1, h2, h3 {
+  font-family: 'Cormorant Garamond', serif;
+  color: #4A3F35;
+}
+
+.accent {
+  font-family: 'Great Vibes', cursive;
+  color: #C9A9A6;
+}
   font-family: 'Lora', serif;
   color: #3B3A39;
   background-color: #FAF9F6;
