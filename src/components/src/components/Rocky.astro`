@@ -1,4 +1,7 @@
+------
+import Rocky from '../components/Rocky.astro';
 ---
+<Rocky />
 ---
 <div style="background-color: #F5E7DE; padding: 2rem; border-radius: 8px; margin-top: 2rem;">
   <h2 class="accent">🐾 Rocky’s Ramble</h2>
