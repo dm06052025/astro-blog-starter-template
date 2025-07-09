@@ -1,4 +1,77 @@
+------
+import Layout from '../layouts/Layout.astro';
 ---
+
+<Layout>
+
+  <!-- Hero Section -->
+  <section style="background:#fdf6f0; padding:5em 2em; text-align:center; font-family:'Georgia', serif; color:#5c4a3d;">
+    <h1 style="font-size:2.5em;">Dianna Martin Candles</h1>
+    <p style="font-size:1.2em;">Where scent meets soul</p>
+  </section>
+
+  <!-- Shop by Mood -->
+  <section style="background:#fdf6f0; padding:3em 2em;">
+    <h2 style="text-align:center;">Shop by Mood</h2>
+    <p style="text-align:center; max-width:500px; margin:0.5em auto;">
+      Let scent guide your feeling.<br>What glow are you seeking today?
+    </p>
+    <div style="display:flex; justify-content:center; gap:1em; margin-top:2em; flex-wrap:wrap;">
+      <button style="background:#e7d3c8; border:none; padding:0.8em 1.6em; border-radius:50px;">🌅 Calm</button>
+      <button style="background:#e7d3c8; border:none; padding:0.8em 1.6em; border-radius:50px;">🌧️ Nostalgic</button>
+      <button style="background:#e7d3c8; border:none; padding:0.8em 1.6em; border-radius:50px;">🐾 Cheeky</button>
+    </div>
+  </section>
+
+  <!-- Candle Collection Grid -->
+  <section style="background:#fdf6f0; padding:4em 2em;">
+    <h2 style="text-align:center;">Our Candle Collection</h2>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:2em; margin-top:2em;">
+      <div style="background:#fff; padding:2em; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.1);">
+        <h3>First Light</h3>
+        <p>A breath of new beginnings—warm vanilla unfurling beside crisp linen. As if morning tiptoed in with hope on its shoulders.</p>
+      </div>
+      <div style="background:#fff; padding:2em; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.1);">
+        <h3>Belfast After Rain</h3>
+        <p>Notes of petrichor and black tea dance above damp cobblestones. A scent that speaks in memory and quiet resilience.</p>
+      </div>
+      <div style="background:#fff; padding:2em; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.1);">
+        <h3>Rocky’s Warmth</h3>
+        <p>Amber and spiced oak settle like a loyal heartbeat. A scent inspired by companionship—cheeky, comforting, eternal.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Story Section -->
+  <section style="background:#e7d3c8; padding:4em 2em;">
+    <h2 style="text-align:center;">The Story</h2>
+    <p style="max-width:700px; margin:1em auto; font-size:1.1em;">
+      Sometimes, a scent is more than fragrance. It’s a memory pressed into wax, a whisper of someone once loved, a place once lived.<br><br>
+      Dianna Martin Candles was born from the belief that light and scent can speak where words cannot. Inspired by a Yorkshire Terrier named Rocky—cheeky, loyal, and full of heart—our collections aim to warm rooms and moments alike.<br><br>
+      From bergamot to Belfast rain, our scents echo the subtleties of emotion, nostalgia, and belonging. This isn’t just illumination. It’s invocation.
+    </p>
+  </section>
+
+  <!-- Meet Rocky Section -->
+  <section style="background:#fdf6f0; padding:4em 2em;">
+    <h2 style="text-align:center;">Meet Rocky 🐾</h2>
+    <p style="max-width:700px; margin:1em auto; font-size:1.1em;">
+      Our tiniest muse with the biggest heart.<br><br>
+      Rocky is no ordinary Yorkshire Terrier. He’s cheeky, confident, and utterly unforgettable—like a pawprint pressed into memory. His warmth inspires more than cuddles; it kindles our brand philosophy: that scent, like companionship, can comfort, uplift, and linger long after the flame is out.<br><br>
+      In every flicker, there’s a hint of him—loyal amber, playful cedar, and an unspoken nudge to treasure the small moments.
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer style="background:#5c4a3d; padding:2em; text-align:center; color:#fdf6f0;">
+    <p>Let scent find you. Join our glow.</p>
+    <p>
+      <a href="mailto:hello@diannamartin.uk" style="color:#fdf6f0;">Email</a> |
+      <a href="https://instagram.com/diannamartincandles" style="color:#fdf6f0;">Instagram</a>
+    </p>
+  </footer>
+
+</Layout>
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
